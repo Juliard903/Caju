@@ -22,11 +22,28 @@ background:#111827;
 position:sticky;
 top:0;
 }
+    
+    @media (max-width: 768px) {
+  header{
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
 
-nav{
-display:flex;
-gap:20px;
+  nav{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .botao{
+    width: 100%;
+    text-align: center;
+  }
 }
+
+    
 
 nav a{
 color:white;
