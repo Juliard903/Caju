@@ -18,6 +18,25 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:20px 10%;
+background:#111827;
+position:sticky;
+top:0;
+}
+
+nav{
+display:flex;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+nav a:hover{
+color:#ff7a00;
 }
 
 .logo{
@@ -63,8 +82,17 @@ color:#888;
 <body>
 
 <header>
+
 <div class="logo">🍊 CAJU</div>
-<a href="#" class="botao">Solicitar orçamento</a>
+
+<nav>
+<a href="#inicio">Início</a>
+<a href="#servicos">Serviços</a>
+<a href="#contato">Contato</a>
+</nav>
+
+<a href="#" class="botao">Orçamento</a>
+
 </header>
 
 <section class="hero">
